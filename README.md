@@ -14,7 +14,6 @@ Correlations of Binance USDS-M Perps (30d rolling):
 ![Alt text](Images/Correlations_descending.png "Correlations of Binance USDS-M Perps (30d rolling)")
 
 
-### Results
 Example of raw data, upon conversion to Pandas DF (1st 5 rows):
 
 ![Alt text](Images/Eg_raw_data.png "Eg. Raw data")
