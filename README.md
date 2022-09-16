@@ -13,6 +13,10 @@ Correlations of Binance USDS-M Perps (30d rolling):
 
 ![Alt text](Images/Correlations_descending.png "Correlations of Binance USDS-M Perps (30d rolling)")
 
+Example pair regression:
+
+![Alt text](Images/BTC_ADA_scatter.png "Eg. Raw data")
+
 
 ### Results
 Example of raw data, upon conversion to Pandas DF (1st 5 rows):
