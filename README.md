@@ -9,19 +9,21 @@ Demonstrate, process, raw data, results and code utilised.
 
 
 ### Results
+Correlations of Binance USDS-M Perps (30d rolling):
 ![Alt text](Images/Correlations_descending.png "Correlations of Binance USDS-M Perps (30d rolling)")
 
 
 ### Results
+Example of raw data, upon conversion to Pandas DF:
 ![Alt text](Images/Eg_raw_data.png "Eg. Raw data")
 
 
 ### Process
 1) Investigate Binance FAPI docs
 2) Query API with customised query_url
-    a) Note: contractType = 'PERPETUAL'
-    b) Note: interval = '2h'  
-    c) Note: limit = 361 (2hr intervals, market open 24/7, 12 intervals p/d x 30 days)
+    a) contractType = 'PERPETUAL'
+    b) interval = '2h'  
+    c) limit = 361 (2hr intervals, market open 24/7, 12 intervals p/d x 30 days)
 3) Convert raw json to Pandas DF
 4) Convert dates (int64) to datetime64
 5) Merge each df (1 per asset) on Open_time
@@ -30,5 +32,5 @@ Demonstrate, process, raw data, results and code utilised.
 8) Assets pairs: refer above "Results"
 
 
-### Code: correlations.ipynb
+### Code
 Refer: (https://github.com/chiron-chiron/crypto-challenge/blob/main/correlations.ipynb)
