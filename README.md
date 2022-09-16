@@ -2,10 +2,10 @@
 
 ### Purpose
 For GS, derive correlations between crypto assets (intra-exchange), on a rolling 30 day window basis.
-Exchange: Binance
-Asset type: USDS-M, Perpetual. (USD margined perpetual instruments)
-Assets: BTCUSDT, ETHUDST, XRPUSDT, ADAUSDT, SOLUSDT
-Demonstrate, process, raw data, results and code utilised.
+* Exchange: Binance
+* Asset type: USDS-M, Perpetual. (USD margined perpetual instruments)
+* Assets: BTCUSDT, ETHUDST, XRPUSDT, ADAUSDT, SOLUSDT
+* Demonstrate, process, raw data, results and code utilised.
 
 
 ### Results
