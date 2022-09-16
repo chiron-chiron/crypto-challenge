@@ -10,11 +10,13 @@ Demonstrate, process, raw data, results and code utilised.
 
 ### Results
 Correlations of Binance USDS-M Perps (30d rolling):
+
 ![Alt text](Images/Correlations_descending.png "Correlations of Binance USDS-M Perps (30d rolling)")
 
 
 ### Results
-Example of raw data, upon conversion to Pandas DF:
+Example of raw data, upon conversion to Pandas DF (1st 5 rows):
+
 ![Alt text](Images/Eg_raw_data.png "Eg. Raw data")
 
 
@@ -24,6 +26,7 @@ Example of raw data, upon conversion to Pandas DF:
     a) contractType = 'PERPETUAL'
     b) interval = '2h'  
     c) limit = 361 (2hr intervals, market open 24/7, 12 intervals p/d x 30 days)
+    d) continuousKlines
 3) Convert raw json to Pandas DF
 4) Convert dates (int64) to datetime64
 5) Merge each df (1 per asset) on Open_time
