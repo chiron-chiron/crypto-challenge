@@ -31,7 +31,7 @@ Example of raw data, upon conversion to Pandas DF (1st 5 rows):
 4) Convert dates (int64) to datetime64
 5) Merge each df (1 per asset) on Open_time
 6) Calc pct change p/2hr interval, p/asset
-7) Perform linear regression: derive correlations b/w all assets. Refer to plots above "Results"
+7) Perform linear regression: derive correlations b/w all assets. Refer "Results"
 8) Assets pairs: refer above "Results"
 
 
